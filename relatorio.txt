@@ -1,0 +1,25 @@
+Relatório Projeto 2 EC:
+
+Grupo número 1:
+
+Francisco Osório, 17710, ? horas;
+Marcos Gomes, 56326, ? horas;
+Pedro trindade, 56342, ? horas;
+João Santos, 56380, ? horas;
+
+introduction and goals: O objetivo deste projeto é, com base num conjunto de dados, prever se um componente é biodegradavel ou não.
+
+data processing: Para processar os dados é necessário: ler o ficheiro CSV, tratar dos "missing values", interpolando-os, escalar os dados, dividir o conjunto de dados em treino e teste, fazer a classificaçÕo com vÁrios modelos e dentro desses modelos vÁrios hiperparâmetros.
+
+variable selection: como e pk e que selecionei as variaveis (NAO SEI FAZER)
+
+model results:
+Os resultados obtidos foram os seguintes:
+
+usar ficheiro de resultados da execucao do programa
+
+hyperparameter tuning: Na regressão logística testamos 2 hiperparâmetros: o C (0.1, 1, 10, 100) e o solver(newton-cg, liblinear); na arvore de decisão: criterion (gini e entropy), max_depth(none, 10,20,30), min_samples_split(2,5,10), min_samples_leaf(1,2,4); e no k neighbours testamos com: n_neighbors(3,5,7,10), wights(uniform, distance), algorithm(ball_tree, kd_tree)
+
+
+
+discussion and conclusions: dizer qual foi o classificador que teve melhores resultados e os hiperparametros que tiveram melhor resultado dentro desse classificador

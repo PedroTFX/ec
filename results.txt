@@ -54,3 +54,164 @@ Classification Report for KNeighborsClassifier :
     accuracy                           0.97       913
    macro avg       0.95      0.94      0.94       913
 weighted avg       0.97      0.97      0.97       913
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Model: Logistic Regression, Hyperparameters: {'C': 0.1, 'solver': 'newton-cg'}, Performance: 0.9534381500290463
+Model: Logistic Regression, Hyperparameters: {'C': 0.1, 'solver': 'liblinear'}, Performance: 0.9548072634597006
+Model: Logistic Regression, Hyperparameters: {'C': 1, 'solver': 'newton-cg'}, Performance: 0.9572722673013138
+Model: Logistic Regression, Hyperparameters: {'C': 1, 'solver': 'liblinear'}, Performance: 0.9575462399040534
+Model: Logistic Regression, Hyperparameters: {'C': 10, 'solver': 'newton-cg'}, Performance: 0.9575458651125313
+Model: Logistic Regression, Hyperparameters: {'C': 10, 'solver': 'liblinear'}, Performance: 0.9575458651125313
+Model: Logistic Regression, Hyperparameters: {'C': 100, 'solver': 'newton-cg'}, Performance: 0.9578198377152709
+Model: Logistic Regression, Hyperparameters: {'C': 100, 'solver': 'liblinear'}, Performance: 0.9578198377152709
+
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9397410190581489
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9394677960384537
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9375526113599311
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9326214793021382
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9301549762944361
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9312519910799617
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.939194198227236
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9405640612409346
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.941113505612503
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9394681708299757
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9427554672713303
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9427573412289414
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9372760152165359
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9361797500140547
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9372790135487137
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9383741543766281
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9402912130127616
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9411131308209809
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9370042913629295
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9430294398740701
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9402927121788507
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9337158705470083
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.933989843149748
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9309783932687441
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9405655604070237
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9413863538406761
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9416607012349381
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9367306935517117
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9397421434327156
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9383749039596724
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9342626913779212
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9328928283642224
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9331694245076176
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9383722804190169
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9397436425988044
+Model: Decision Tree, Hyperparameters: {'criterion': 'gini', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9416618256095047
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9383722804190169
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9386466278132788
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9397417686411934
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9323463823248318
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.935907651368926
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9375484886531866
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.932619605344527
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9301549762944361
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9312508667053951
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9422063976912842
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9394677960384537
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.9402878398890617
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9386458782302345
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9391926990611473
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9389187264584076
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9372760152165357
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9380986826077994
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9386455034387122
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9380968086501884
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9380971834417107
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.936727695219534
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9342638157524877
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9342638157524876
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9364533478252722
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9342634409609655
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9345374135637051
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9323460075333095
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 2}, Performance: 0.9413848546745871
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance: 0.9397410190581489
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10}, Performance: 0.93645297303375
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 2}, Performance: 0.9372767647995802
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 5}, Performance: 0.9337151209639638
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 2, 'min_samples_split': 10}, Performance: 0.9356318048085752
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 2}, Performance: 0.9323456327417874
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 5}, Performance: 0.9323467571163541
+Model: Decision Tree, Hyperparameters: {'criterion': 'entropy', 'max_depth': 30, 'min_samples_leaf': 4, 'min_samples_split': 10}, Performance: 0.9375503626107978
+
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 3, 'weights': 'uniform'}, Performance: 0.9611060097820587
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 3, 'weights': 'distance'}, Performance: 0.9605580645765792
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 5, 'weights': 'uniform'}, Performance: 0.9575451155294867
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 5, 'weights': 'distance'}, Performance: 0.9580923111519217
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 7, 'weights': 'uniform'}, Performance: 0.9523426344096096
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 7, 'weights': 'distance'}, Performance: 0.9553548338736577
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 10, 'weights': 'uniform'}, Performance: 0.9526169818038716
+Model: KNN, Hyperparameters: {'algorithm': 'ball_tree', 'n_neighbors': 10, 'weights': 'distance'}, Performance: 0.9539872196090924
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 3, 'weights': 'uniform'}, Performance: 0.9611060097820587
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 3, 'weights': 'distance'}, Performance: 0.9605580645765792
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 5, 'weights': 'uniform'}, Performance: 0.9575451155294867
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 5, 'weights': 'distance'}, Performance: 0.9580923111519217
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 7, 'weights': 'uniform'}, Performance: 0.9523426344096096
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 7, 'weights': 'distance'}, Performance: 0.9553548338736577
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 10, 'weights': 'uniform'}, Performance: 0.9526169818038716
+Model: KNN, Hyperparameters: {'algorithm': 'kd_tree', 'n_neighbors': 10, 'weights': 'distance'}, Performance: 0.9539872196090924
+
+Best performance of Logistic Regression: Hyperparameters {'C': 100, 'solver': 'newton-cg'}, Performance 0.9578198377152709
+Accuracy: 0.9485213581599123
+Confusion Matrix:
+ [[128  28]
+ [ 19 738]]
+Classification Report:
+               precision    recall  f1-score   support
+
+         NRB       0.87      0.82      0.84       156
+          RB       0.96      0.97      0.97       757
+
+    accuracy                           0.95       913
+   macro avg       0.92      0.90      0.91       913
+weighted avg       0.95      0.95      0.95       913
+
+
+Best performance of Decision Tree: Hyperparameters {'criterion': 'gini', 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, Performance 0.9430294398740701
+Accuracy: 0.9507119386637459
+Confusion Matrix:
+ [[134  22]
+ [ 23 734]]
+Classification Report:
+               precision    recall  f1-score   support
+
+         NRB       0.85      0.86      0.86       156
+          RB       0.97      0.97      0.97       757
+
+    accuracy                           0.95       913
+   macro avg       0.91      0.91      0.91       913
+weighted avg       0.95      0.95      0.95       913
+
+
+Best performance of KNN: Hyperparameters {'algorithm': 'ball_tree', 'n_neighbors': 3, 'weights': 'uniform'}, Performance 0.9611060097820587
+C:\Users\joaob\anaconda3\lib\site-packages\sklearn\neighbors\_classification.py:228: FutureWarning: Unlike other reduction functions (e.g. `skew`, `kurtosis`), the default behavior of `mode` typically preserves the axis it acts along. In SciPy 1.11.0, this behavior will change: the default value of `keepdims` will become False, the `axis` over which the statistic is taken will be eliminated, and the value None will no longer be accepted. Set `keepdims` to True or False to avoid this warning.
+  mode, _ = stats.mode(_y[neigh_ind, k], axis=1)
+Accuracy: 0.9649507119386638
+Confusion Matrix:
+ [[133  23]
+ [  9 748]]
+Classification Report: 
+               precision    recall  f1-score   support
+
+         NRB       0.94      0.85      0.89       156
+          RB       0.97      0.99      0.98       757
+
+    accuracy                           0.96       913
+   macro avg       0.95      0.92      0.94       913
+weighted avg       0.96      0.96      0.96       913
